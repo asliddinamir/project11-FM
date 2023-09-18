@@ -198,4 +198,26 @@ body {
     .review:nth-of-type(3) {
         margin-left: 0;
     }
+
+    .reviews {
+        margin-top: 20px;
+    }
+
+    .review1 {
+        height: auto;
+        margin: 10px;
+    }
+
+    .review1:nth-of-type(1) {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .review1:nth-of-type(2) {
+        margin-top: 0;
+    }
+
+    .review1:nth-of-type(3) {
+        margin-top: 0;
+    }
 }
