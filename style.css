@@ -111,9 +111,6 @@ body {
     margin-top: 4%;
 }
 
-
-
-
 .header {
     display: flex;
     align-items: center;
@@ -143,4 +140,14 @@ body {
 
 .review1 p {
     line-height: 1.3;
+}
+
+.attribution {
+    text-align: center;
+    color: #222;
+}
+
+.attribution a {
+    color: red;
+    cursor: pointer;
 }
