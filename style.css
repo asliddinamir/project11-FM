@@ -10,12 +10,15 @@ body {
     font-family: 'League Spartan', sans-serif;
     background: url('./images/bg-pattern-top-desktop.svg') no-repeat top left, url('./images/bg-pattern-bottom-desktop.svg') no-repeat 200px 300px;
     min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    padding-inline: 150px;
+    max-width: 1158px;
     padding-block: 100px;
 }
 
@@ -71,9 +74,8 @@ body {
 }
 
 .review img {
-    padding-inline: 5px;
+    padding-inline: 3px;
 }
-
 
 .review span {
     color: #512051;
@@ -104,7 +106,6 @@ body {
 
 .review1:nth-of-type(2) {
     margin-top: 2%;
-
 }
 
 .review1:nth-of-type(3) {
@@ -150,4 +151,51 @@ body {
 .attribution a {
     color: red;
     cursor: pointer;
+}
+
+@media(max-width:1250px) {
+    .main {
+        width: 95%;
+        padding-block: 60px;
+    }
+
+    .box1 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .title {
+        font-size: 40px;
+        width: 70%;
+    }
+
+    .review {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons {
+        margin-bottom: 15px;
+    }
+
+    .review img {
+        padding-inline: 2px;
+    }
+
+    .review:nth-of-type(1) {
+        margin-left: 0;
+    }
+
+    .review:nth-of-type(2) {
+        margin-left: 0;
+    }
+
+    .review:nth-of-type(3) {
+        margin-left: 0;
+    }
 }
