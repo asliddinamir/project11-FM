@@ -3,6 +3,8 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    overflow-x: hidden;
+    padding: 0;
 }
 
 body {
@@ -219,5 +221,41 @@ body {
 
     .review1:nth-of-type(3) {
         margin-top: 0;
+    }
+}
+
+@media(max-width:778px) {
+    .main {
+        align-items: center;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .box1 {
+        width: 100%;
+    }
+
+    .box2 {
+        width: 110%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .review {
+        width: 95%;
+    }
+
+    .reviews {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review1:nth-of-type(1) {
+        margin-left: 10px;
     }
 }
