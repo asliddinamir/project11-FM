@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    padding-left: 0;
     width: 100%;
 }
 
@@ -79,4 +80,67 @@ body {
     font-size: 17px;
     font-weight: 700;
     margin-left: 30px;
+}
+
+.reviews {
+    display: flex;
+    margin-top: 30px;
+}
+
+.review1 {
+    border-radius: 10px;
+    background: #512051;
+    padding: 40px 32px 35px;
+    color: #f7f2f7;
+    font-size: 17px;
+    margin: 15px;
+    height: 240px;
+}
+
+.review1:nth-of-type(1) {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.review1:nth-of-type(2) {
+    margin-top: 2%;
+
+}
+
+.review1:nth-of-type(3) {
+    margin-top: 4%;
+}
+
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.author_name {
+    display: flex;
+    flex-direction: column;
+}
+
+.author_name span {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.author_name small {
+    color: #ee69a4;
+    font-size: 17px;
+}
+
+.review1 p {
+    line-height: 1.3;
 }
